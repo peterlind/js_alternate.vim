@@ -1,5 +1,5 @@
 let g:js_alternate#src_types = get(g:, 'js_alternate#src_types ', ['lib', 'src', 'app', 'scripts', 'js'])
-let g:js_alternate#test_types = get(g:, 'js_alternate#test_types', ['tests', 'test', 'spec'])
+let g:js_alternate#test_types = get(g:, 'js_alternate#test_types', ['tests', 'test', 'spec', '-test'])
 let g:js_alternate#extension_types = get(g: , 'js_alternate#extension_types', ['js', 'jsx'])
 
 function! js_alternate#alternatives(path)
